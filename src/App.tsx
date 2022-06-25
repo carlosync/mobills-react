@@ -1,11 +1,11 @@
+import { Header } from "./Components/Header";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
   return (
-    <div className="App">
-     <h1>Olá react</h1>
-
+    <>
+     <Header/>
      <GlobalStyle/>
-    </div>
+    </>
   );
 }
